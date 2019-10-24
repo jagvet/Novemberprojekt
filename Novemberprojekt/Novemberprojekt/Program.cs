@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RestSharp;
+using Newtonsoft.Json;
 
 namespace Novemberprojekt
 {
@@ -10,6 +12,10 @@ namespace Novemberprojekt
     {
         static void Main(string[] args)
         {
+
+
+
+
         }
     }
 }
