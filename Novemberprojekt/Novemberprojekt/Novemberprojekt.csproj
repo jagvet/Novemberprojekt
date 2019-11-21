@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attackers.cs" />
+    <Compile Include="Defender.cs" />
+    <Compile Include="Goalkeepers.cs" />
+    <Compile Include="Midfielder.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
