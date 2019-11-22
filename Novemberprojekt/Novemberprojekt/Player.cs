@@ -8,11 +8,16 @@ namespace Novemberprojekt
 {
     class Player
     {
+        //Deklarerar några variabler som ska användas av de olika positionerna
+
+
         public string name;
         public int ovr;
         public int sho;
         public int pas;
         public int def;
+
+        //printStats är en metod som skriver ut namn och stats som kan hämtas i spelarens metod
 
         public void printStats()
         {
@@ -22,6 +27,8 @@ namespace Novemberprojekt
             Console.WriteLine("PAS: " + pas);
             Console.WriteLine("DEF: " + def);
         }
+
+        //samma som printStats men skriver bara overall
 
         public void printStatsGoalie()
         {

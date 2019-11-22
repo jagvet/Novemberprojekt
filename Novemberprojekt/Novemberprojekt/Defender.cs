@@ -8,6 +8,10 @@ namespace Novemberprojekt
 {
     class Defender : Player
     {
+        //Alla metoder är spelare som deklarerar deras stats och skriver ut dem.
+        //Från klassen Player hämtas variablerna.
+        //Varje fotbollsposition ärver av Player 
+
         public void Virgil()
         {
             name = "Virgil Van Dijk";
